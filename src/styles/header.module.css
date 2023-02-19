@@ -1,0 +1,96 @@
+header {
+  background-color: var(--light-grey);
+  padding: 15px 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.architectsBox {
+  display: flex;
+}
+
+.architectImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid white;
+  position: relative;
+}
+
+.architectImage2 {
+  left: -15px;
+}
+
+.architectImage3 {
+  left: -30px;
+}
+
+.architectImage4 {
+  left: -45px;
+}
+
+.moreArchitects {
+  display: inline-flex;
+  left: -60px;
+  top: -15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  color: #7c838a;
+}
+
+.iconsContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.iconBox {
+  position: relative;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #e1ecf9;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconBadge {
+  font-size: 12px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  border: 3px solid white;
+  color: black;
+  background-color: #ffd900;
+  position: absolute;
+  top: -15px;
+  left: -20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: var(--dark-blue);
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    padding: 15px 25px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .architectImage {
+    display: none;
+  }
+}

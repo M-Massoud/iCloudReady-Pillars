@@ -1,0 +1,36 @@
+.pageHeader {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.pageHeader h2 {
+  display: inline;
+}
+
+.pageHeader img {
+  margin-left: 10px;
+}
+
+.menuIcon {
+  background-color: #2f5680;
+  color: white;
+  border-radius: 50%;
+  margin-left: auto;
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageFooter {
+  color: white;
+  text-align: right;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.pageFooter p {
+  display: inline;
+  margin: 0 25px 0 10px;
+}

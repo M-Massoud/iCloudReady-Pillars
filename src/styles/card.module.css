@@ -1,0 +1,43 @@
+.pillarCard {
+  border: 3px solid white;
+  padding: 0px !important;
+  margin-bottom: 20px;
+  transition: all 0.45s;
+}
+
+.pillarCard:hover {
+  transform: translateY(-10px);
+}
+
+.cardContent {
+  border-radius: 12px;
+  border: 2px solid white;
+  color: white;
+  padding: 15px;
+}
+
+.ant-card-meta-title {
+  color: white;
+}
+
+.cardIcon {
+  display: inline-block;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border: none;
+}
+
+.cardIcon:first-of-type {
+  margin-right: 10px;
+}
+
+.cardFooter {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+footer a {
+  color: var(--light-blue);
+  text-decoration: none;
+}
+
+footer span {
+  color: #637182;
+}

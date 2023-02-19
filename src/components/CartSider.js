@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { CartContext } from '../context/cartContext';
-import { Drawer, Table } from 'antd';
+import { Drawer, Table, Button, Divider } from 'antd';
 import { DeleteFilled } from '@ant-design/icons';
 
 function EmptyCart() {
@@ -46,7 +46,42 @@ function CartTable() {
       />
     ),
   }));
-  return <Table columns={columns} dataSource={data} />;
+  return (
+    <>
+      <Table columns={columns} dataSource={data} pagination={false} />
+      <p
+        style={{
+          margin: '10px',
+        }}
+      >
+        Subtotal
+        <span className="light-blue-text" style={{ float: 'right' }}>
+          1.00 DTSUs
+        </span>
+      </p>
+      <p style={{ margin: '10px' }}>
+        New Payment
+        <span className="light-blue-text" style={{ float: 'right' }}>
+          No, Inclusive in your package
+        </span>
+      </p>
+      <Divider />
+
+      <p style={{ margin: '10px' }}>
+        Total units Consumed
+        <span className="light-blue-text" style={{ float: 'right' }}>
+          1.00 DTSUs
+        </span>
+      </p>
+      <Button type="primary" size="large" block className="checkout-button">
+        Checkout
+      </Button>
+
+      <Button type="default" size="large" block className="information-button">
+        Back to Run Information
+      </Button>
+    </>
+  );
 }
 
 function CartSider({ isOpened, closeSider }) {

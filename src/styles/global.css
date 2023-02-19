@@ -46,6 +46,21 @@ body {
   color: white !important;
 }
 
+.checkout-button,
+.information-button {
+  border-radius: 30px !important;
+  margin: 10px 0;
+}
+
+.checkout-button {
+  background-color: #0097c2;
+}
+
+.information-button {
+  border: 2px solid var(--light-blue);
+  color: var(--light-blue);
+}
+
 @media screen and (max-width: 992px) {
   .container {
     padding: 50px 25px;

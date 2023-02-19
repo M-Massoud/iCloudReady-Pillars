@@ -22,9 +22,9 @@ export default function Header() {
       </div>
 
       <div className={styles.architectsBox}>
-        <div className={styles.architectImages}>
+        <div>
           <img
-            className={`${styles.architectImage} ${styles.architectImage1}`}
+            className={`${styles.architectImage} `}
             src="../images/architect-1.png"
             alt="architectural engineer image1"
           />
